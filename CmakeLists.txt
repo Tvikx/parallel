@@ -1,9 +1,0 @@
-cmake_minimum_required (VERSION 3.10)
-project(app)
-
-option(U_FLOAT "float" ON)
-if(U_FLOAT)
-    add_definitions(-D_FLOAT)
-endif()
-
-add_executable(app main.cpp)
